@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+  dockerizedspa:
+    build: ./
+    ports:
+      - "8081:8081"
+    links:
+      - database
+    volumes:
+      - ./app
+    depends_on:
+      - database
+      
+  database: 
+    image: mongo
