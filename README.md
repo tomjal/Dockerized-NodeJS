@@ -11,7 +11,7 @@ mongo - with MongoDB
 ## Commands
 
 ```
-docker build -t dockerizedSPA .
+docker build -t dockerizedspa .
 
 docker run -p 8081:8081 dockerizedspa
 
