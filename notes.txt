@@ -1,0 +1,3 @@
+https://docs.docker.com/engine/userguide/eng-image/multistage-build/
+https://blog.alexellis.io/mutli-stage-docker-builds/
+https://codefresh.io/blog/node_docker_multistage/
