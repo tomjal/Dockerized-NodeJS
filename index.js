@@ -14,10 +14,6 @@ var options = {
 app.use(bodyParser.json());
 app.use(expressMongoCrud(options)); 
 
-app.get('/', function (req, res) {
-  res.send('Works!')
-})
-
 app.listen(8081, function () {
   console.log('app listening on port 8081!')
 })

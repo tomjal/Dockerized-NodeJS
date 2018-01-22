@@ -782,10 +782,6 @@ kareem@1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/kareem/-/kareem-1.5.0.tgz#e3e4101d9dcfde299769daf4b4db64d895d17448"
 
-kareem@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/kareem/-/kareem-2.0.1.tgz#f17f77e9032f64aa402b334f91fb4407fe4c042c"
-
 kind-of@^3.0.2:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-3.2.2.tgz#31ea21a734bab9bbb0f32466d893aea51e4a3c64"
@@ -881,13 +877,6 @@ mongodb-core@2.1.18:
     bson "~1.0.4"
     require_optional "~1.0.0"
 
-mongodb-core@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/mongodb-core/-/mongodb-core-3.0.1.tgz#ff6dc36ee96ff596953d80a6840d6731bc92efed"
-  dependencies:
-    bson "~1.0.4"
-    require_optional "^1.0.1"
-
 mongodb@2.2.34:
   version "2.2.34"
   resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-2.2.34.tgz#a34f59bbeb61754aec432de72c3fe21526a44c1a"
@@ -895,16 +884,6 @@ mongodb@2.2.34:
     es6-promise "3.2.1"
     mongodb-core "2.1.18"
     readable-stream "2.2.7"
-
-mongodb@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.0.1.tgz#278ee8006257ec22798594a6259546825d6de1b2"
-  dependencies:
-    mongodb-core "3.0.1"
-
-mongoose-legacy-pluralize@1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.1.tgz#31ae25db45c30f1448c0f93f52769e903367c701"
 
 mongoose@^4.9.0:
   version "4.13.9"
@@ -924,22 +903,6 @@ mongoose@^4.9.0:
     regexp-clone "0.0.1"
     sliced "1.0.1"
 
-mongoose@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.0.1.tgz#ded04311b9f13c8004e2b0097f3a61653a394361"
-  dependencies:
-    async "2.1.4"
-    bson "~1.0.4"
-    kareem "2.0.1"
-    lodash.get "4.4.2"
-    mongodb "3.0.1"
-    mongoose-legacy-pluralize "1.0.1"
-    mpath "0.3.0"
-    mquery "3.0.0-rc0"
-    ms "2.0.0"
-    regexp-clone "0.0.1"
-    sliced "1.0.1"
-
 mpath@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/mpath/-/mpath-0.3.0.tgz#7a58f789e9b5fd3c94520634157960f26bd5ef44"
@@ -951,15 +914,6 @@ mpromise@0.5.5:
 mquery@2.3.3:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/mquery/-/mquery-2.3.3.tgz#221412e5d4e7290ca5582dd16ea8f190a506b518"
-  dependencies:
-    bluebird "3.5.0"
-    debug "2.6.9"
-    regexp-clone "0.0.1"
-    sliced "0.0.5"
-
-mquery@3.0.0-rc0:
-  version "3.0.0-rc0"
-  resolved "https://registry.yarnpkg.com/mquery/-/mquery-3.0.0-rc0.tgz#05ec656e92f079828bedf4202e60fb8eaacb9f47"
   dependencies:
     bluebird "3.5.0"
     debug "2.6.9"
@@ -1243,7 +1197,7 @@ request@2.81.0:
     tunnel-agent "^0.6.0"
     uuid "^3.0.0"
 
-require_optional@^1.0.1, require_optional@~1.0.0:
+require_optional@~1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/require_optional/-/require_optional-1.0.1.tgz#4cf35a4247f64ca3df8c2ef208cc494b1ca8fc2e"
   dependencies:
